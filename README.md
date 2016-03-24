@@ -26,7 +26,7 @@ Ubuntu latest version with SSH & other development libraries support.
 
 ## Installation
 ```
-$ docker build -t ahirmayur/ubuntu-dev .
+$ docker build -t ahirmayur/ubuntu-dev . # if you are building from Git
 $ docker run -d -p 22 ahirmayur/ubuntu-dev
 5f1b7a6404c8
 
